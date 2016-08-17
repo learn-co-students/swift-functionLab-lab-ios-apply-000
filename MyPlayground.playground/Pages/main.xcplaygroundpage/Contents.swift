@@ -62,7 +62,7 @@ Greeting(favoritePet)
 // write your code here
 
 func nameIceCream() {
-    let flavor = "Rocky Road"
+    var flavor = "Rocky Road"
     print("I love \(flavor) ice cream!")
 }
 
