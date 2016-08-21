@@ -13,6 +13,11 @@
  */
 // write your code here
 
+func helloWorld() {
+    print("Hello, world!")
+}
+
+helloWorld()
 
 
 
@@ -21,7 +26,14 @@
  */
 // write your code here
 
+func helloCat() {
+    
+    let cat = "Rupert"
+    
+    print("Hello!, \(cat)!")
+}
 
+helloCat()
 
 
 /*: question3
@@ -29,15 +41,28 @@
  */
 // write your code here
 
+func helloName(name:String) {
+    
+    print("Hello, \(name)!")
 
+}
+
+helloName("Enrique")
+helloName("Pablo")
+helloName("Sarina")
 
 
 /*: question4
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
  */
 // write your code here
+var favoriteName = "Roger"
 
+helloName(favoriteName)
 
+favoriteName = "Richard"
+
+helloName(favoriteName)
 
 
 /*: question5
@@ -45,8 +70,21 @@
  */
 // write your code here
 
+func favoriteNumber () {
+    
+    var favoriteNumber = 5
+    
+    print("My favorite number is \(favoriteNumber)!")
+
+    favoriteNumber = 7
+    
+    print("My favorite number is \(favoriteNumber)!")
+
+}
 
 
+favoriteNumber()
 
+//I expect to see printed all the information in the order they were coded."
 /*:
 Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions. */
