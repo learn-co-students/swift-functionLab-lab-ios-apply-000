@@ -66,13 +66,12 @@ func goodNight () {
     
     print (helloNight)
     
+    helloNight = "GOODNIGHT MY ENEMY"
     
+    print (helloNight)
 }
 
 goodNight()
-
-helloNight = "GOODNIGHT MY ENEMY"
-
 goodNight()
 
 
