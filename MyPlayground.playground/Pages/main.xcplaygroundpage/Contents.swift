@@ -13,6 +13,13 @@
  */
 // write your code here
 
+func helloWorld(){
+    print("Hello, world!")
+}
+
+helloWorld()
+
+
 
 
 
@@ -20,6 +27,14 @@
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
+
+func printConst(){
+    let MyConst = "Behdad"
+    print(MyConst)
+}
+
+printConst()
+
 
 
 
@@ -29,6 +44,14 @@
  */
 // write your code here
 
+func printGreeting(name : String){
+    print("Hello \(name), welcome to my Playground and have a good day")
+}
+
+printGreeting("Behdad")
+printGreeting("Asghar")
+printGreeting("Akbar")
+
 
 
 
@@ -37,6 +60,8 @@
  */
 // write your code here
 
+var Friend = "Fabio"
+printGreeting(Friend)
 
 
 
@@ -44,6 +69,18 @@
  ### 5. Write your own function in which you declare a _variable_ (of any type) inside the function's body. Print out this variable to the console from within your function. After you print the variable once, assign it to a new variable on the next line. Print it again (after the line on which you assign it to a new value). Call your function several times. What do you expect to see printed to the playground's console each time you call this function?
  */
 // write your code here
+
+func printVar(){
+    var Mytoken = "Book"
+    print(Mytoken)
+    Mytoken = "Pen"
+    print(Mytoken)
+}
+
+printVar()
+printVar()
+
+
 
 
 
