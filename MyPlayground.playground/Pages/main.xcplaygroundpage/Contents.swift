@@ -13,15 +13,22 @@
  */
 // write your code here
 
+func helloWorld() {
+    print("Hello, world!")
+}
 
-
-
+helloWorld()
 /*: question2
  ### 2. Write your own function in which you declare a constant inside the function's body and then print that constant to the console. Call this function to see your string printed to the playground console.
  */
 // write your code here
 
+func crazyLove() {
+    let loveOfMyLife = "Jordan"
+    print(loveOfMyLife)
+}
 
+crazyLove()
 
 
 /*: question3
@@ -29,7 +36,15 @@
  */
 // write your code here
 
+func personName(name: String) {
+    print("Hey \(name), how's it going?")
+}
 
+personName("Justin")
+personName("Richel")
+personName("Beautiful")
+personName("President Obama")
+personName("Michael")
 
 
 /*: question4
@@ -37,7 +52,11 @@
  */
 // write your code here
 
+let officialName = "Andrew"
+personName(officialName)
 
+var queenBey = "Yonce"
+personName(queenBey)
 
 
 /*: question5
@@ -46,6 +65,14 @@
 // write your code here
 
 
+func favoriteRestaurant() {
+    var cuisine = "Cantonese"
+    print("This restaurant serves my favorite \(cuisine) dishes!")
+}
+
+favoriteRestaurant()
+var cuisine = "Italian"
+favoriteRestaurant()
 
 
 /*:
