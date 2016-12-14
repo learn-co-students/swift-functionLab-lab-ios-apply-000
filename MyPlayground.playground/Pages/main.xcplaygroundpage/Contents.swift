@@ -67,8 +67,17 @@ person(name: aString)
  */
 // write your code here
 
+func myOwnFunc2(){
+    var anyType = 8
+    
+    print(anyType)
+    anyType = 14
+    
+    print(anyType)
+}
 
-
-
+myOwnFunc2()
+myOwnFunc2()
+myOwnFunc2()
 /*:
 Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions. */
