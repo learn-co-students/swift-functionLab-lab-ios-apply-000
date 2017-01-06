@@ -24,21 +24,21 @@ func helloName(name: String) {
     print("Hello, \(name)!")
 }
 
-helloName("Jon")
-helloName("Jane")
-helloName("Edgar")
-helloName("Ruth")
+helloName(name: "Jon")
+helloName(name: "Jane")
+helloName(name: "Edgar")
+helloName(name: "Ruth")
 
 
 
 //: Question 4
 let name1 = "Bobby"
-helloName(name1)
+helloName(name: name1)
 
 var name2 = "George"
-helloName(name2)
+helloName(name: name2)
 name2 = "Marcia"
-helloName(name2)
+helloName(name: name2)
 
 
 
