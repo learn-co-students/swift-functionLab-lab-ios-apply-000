@@ -78,17 +78,19 @@ greetUser(name:"Barry")
 // write your code here
 
 
-func helloToUser(user:String) -> String {
+func helloToUser(user:String) {
     
-    let greeting = "\(user), you have been logged out!"
+    var greeting = "\(user), you have been logged out!"
     
-    return greeting
+    print(greeting)
+    
+    greeting = "Goodbye, \(user)"
+    
+    print(greeting)
+    
 }
 
-let user = "Bearpartynyc"
-
-print(helloToUser)
-
+helloToUser(user: "Bearpartynyc")
 
 /*:
 Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions. */
