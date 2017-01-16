@@ -13,6 +13,13 @@
  */
 // write your code here
 
+func helloWorld() {
+    print("Hello, World!")
+    
+}
+
+helloWorld()
+
 
 
 
@@ -21,6 +28,13 @@
  */
 // write your code here
 
+func wassup() {
+    let bae = "Rebecca"
+    print("\(bae) is my bae")
+    
+}
+
+wassup()
 
 
 
@@ -29,13 +43,25 @@
  */
 // write your code here
 
+func nameTest(name: String) {
+        print("\(name), call me!")
+}
 
 
+nameTest(name: "Ali")
+nameTest(name: "Rebecca")
+nameTest(name: "Gerald")
 
 /*: question4
  ### 4. Now call the function you wrote in Question 3 using a variable or constant instead of a string literal. What do you expect to see in the console? Try passing in a _variable_ you declared (using `var`) as an argument. Then change that variable's value and call your function again. What do you see in the console?
  */
 // write your code here
+
+let bb = "Isaac"
+
+nameTest(name: bb)
+
+
 
 
 
@@ -44,6 +70,23 @@
  ### 5. Write your own function in which you declare a _variable_ (of any type) inside the function's body. Print out this variable to the console from within your function. After you print the variable once, assign a new value to this variable on the next line. Print it again (after the line on which you assign it to a new value). Call your function several times. What do you expect to see printed to the playground's console each time you call this function?
  */
 // write your code here
+
+func test() {
+    let liquor = "Rum"
+    print("\(liquor) is my favorite type of alcohol")
+    
+}
+
+test()
+
+func testTwo(drink: String) {
+    let liquor = "Tequila"
+    print("\(liquor) is my favorite kind of \(drink)")
+    
+}
+
+testTwo(drink: "alcohol")
+
 
 
 
